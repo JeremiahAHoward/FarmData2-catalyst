@@ -21,3 +21,6 @@ tasks:
         git config --global mergetool.vscode.cmd 'code --wait $MERGED'
         "${GITPOD_REPO_ROOT}/.kit/install-features-into-client/run.sh"
         exec bash
+    - name: OpenSSF Scorecard Monitor
+      uses: ossf/scorecard-monitor@v2.0.0-beta8
+            
